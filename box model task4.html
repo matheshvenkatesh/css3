@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            display: flex;
+            /* background-color: aqua; */
+            column-gap: 70px;
+        }
+     
+        
+        .h4{
+            height: 320px;
+            width: 300px;
+            background-color: rgb(173,217,230);
+        }
+        .h2{
+            height: 250px;
+            width: 250px;
+            background-color:rgb(173,217,230);
+        }
+        .h7{
+            height: 320px;
+            width: 300px;
+            background-color: rgb(173,217,230);
+        }
+        .h10{
+            height: 320px;
+            width: 300px;
+            background-color: rgb(173,217,230);
+        }
+        .h1{
+            color:rgb(129,157,167);
+        }
+        .h3,.h5,.h8,.h11{
+            color: rgb(129,157,167);
+        }
+        
+        
+        
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div>
+            <div id="box1">
+                <h1 class="h1">200 X 200</h1>
+            </div>
+
+            <div class="h2" style="border: 2px solid aqua;">
+                <p>Width : 200</p>
+                <p>Height : 200</p>
+                <p>-----------------------</p>
+                <p>Total : 200 X 200</p>
+            </div>
+
+            <div>
+                <h1 class="h3">200 X 200 </h1>
+            </div>
+        </div>
+
+        <div id="box2">
+            <div>
+                <h1 class="h1">+ Border : 20</h1>
+            </div>
+            <div class="h4" style="border: 20px solid rgb(73,119,134);">
+                <p>Width : 200</p>
+                <p>Height : 200</p>
+                <p>Border : 20</p>
+                <p>-----------------------</p>
+                <p>Total : 240 X 240</p>
+            </div>
+
+            <div><h1 class="h5"> 240 X 240 </h1></div>
+        </div>
+
+        <div id="box3">
+            <div class="h6">
+                <h1 class="h1">+ Padding : 20</h1>
+            </div>
+            <div class="h7" style="border: 20px solid rgb(73,119,134);">
+                <p>Width : 200</p>
+                <p>Height : 200</p>
+                <p>Border : 20</p>
+                <p>Padding : 20 </p>
+                <p>-----------------------</p>
+                <p>Total : 280 X 280</p>
+            </div>
+            <div>
+                <h1 class="h8">280 X 280</h1>
+            </div>
+        </div>
+        <div id ="box4">
+            <div class="h9">
+                <p>
+                <h1 class="h1">+ Margin : 20</h1>
+                </p>
+            </div>
+            <div class="h10" style="border: 20px solid rgb(73,119,134);">
+                <p>Width : 200</p>
+                <p>Height : 200</p>
+                <p>Border : 20</p>
+                <p>Padding : 20</p>
+                <p>Margin : 20</p>
+                <p>-----------------------</p>
+                <p>Overall : 280 X 280</p>
+            </div>
+
+            <div><h1 class="h11">280 X 280 </h1></div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: #180835;
+      }
+      #container1 {
+        max-width: 1200px;
+        height: 500px;
+        margin-top: 120px;
+        margin-left: 150px;
+        display: grid;
+        /* grid-template: repeat(2,300px), repeat(2,200px); */
+
+        background-color: aqua;
+        text-align: center;
+        grid-template-columns: repeat(2, 600px);
+        background-image: linear-gradient(to right, #f35160, #cc6cd0, #34b8e5);
+        border-radius: 30px;
+      }
+      #container2 {
+        text-align: center;
+        margin-left: 100px;
+        /* margin-top: 30px; */
+        width: 280px;
+        height: 400px;
+        margin-top: 28px;
+
+        padding: 20px;
+        /* grid-column: repeat (5,500px); */
+        /* margin-right: 800px; */
+        border: 2px solid black;
+        border-radius: 30px;
+        background-image: linear-gradient(to left, #3a3a3a, #090909);
+      }
+      #container3 {
+        text-align: center;
+        margin-left: 1px;
+        background-image: linear-gradient(to left, #3a3a3a, #090909);
+        width: 500px;
+        height: 400px;
+        margin-top: 28px;
+        padding: 20px;
+        /* grid-column: repeat (5,500px); */
+        /* margin-right: 800px; */
+        border: 2px solid black;
+        margin-right: 50px;
+        border-radius: 30px;
+        color: white;
+      }
+      img {
+        border-radius: 50%;
+      }
+      .img{
+        margin-top: 20px;
+        background-color:  #180835;
+        
+      }
+      h3 {
+        background: linear-gradient(to right, #a73b87, #d3db0e);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: larger;
+      }
+      /* table{
+        text-align: end;
+      } */
+      .name {
+        padding-right: 40px;
+      }
+      .age {
+        padding-right: 70px;
+      }
+      .mobile {
+        padding-left: 0px;
+      }
+      .email {
+        padding-left: 0px;
+      }
+      .address {
+        padding-left: 50px;
+        margin-bottom: 100px;
+      }
+      /* span{
+        padding-left: 20px;
+      } */
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="container1">
+        <div id="container2" style="background-color: black">
+          <img src="THIRUMUGIL.png" alt="" width="200px" height="200px" />
+          <br />
+          <h3>John Doe</h3>
+          <h4 style="color: white">Web Developer</h4>
+        </div>
+        <div id="container3">
+          <h3>Profile Details</h3>
+          <!-- <table> -->
+          <tr>
+            <!-- <td class="first" sy>Name:</td>
+              <td class="sec" >John Doe</td> -->
+            <!-- <center> -->
+            <p class="name">
+              Name: <span style="padding-left: 20px">John Doe</span>
+            </p>
+          </tr>
+          <tr>
+         
+            <p class="age">Age: <span style="padding-left: 50px">36</span></p>
+          </tr>
+          <tr>
+            <!-- <td class="first">Mobile:</td>
+              <td class="sec">+91 xxxxxxxxxx</td> -->
+            <p class="mobile">Mobile: <span style="padding-left: 20px">+91 xxxxxxxxxx</span></p>
+          </tr>
+          <tr>
+            <!-- <td class="first">Email:</td>
+              <td class="sec">john@gmail.com</td> -->
+            <p class="email">Email: <span style="padding-left: 30px">john@gmail.com</span></p>
+          </tr>
+          <tr>
+            <!-- <td class="first">Address:</td>
+              <td class="sec">123 Main St.Anytown,USA</td> -->
+            <p class="address">Address: <span style="padding-left: 0px">123 Main St.Anytown,USA</span></p>
+          </tr>
+          <!-- </table> -->
+          <p>Made with by 💓<span>Learning Robo</span></p>
+        </div>
+      </div>
+      <!-- </center> -->
+      <p
+        style="
+          color: white;
+          text-align: end;
+          font-size: xx-large;
+          font-weight: 900;
+          padding-right: 130px;
+        "
+      >
+      <img src="robo.jpeg" alt="" width="50px" height="50px" class="img">
+        Learning Robo
+      </p>
+    </div>
+  </body>
+</html>
